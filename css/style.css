@@ -45,6 +45,7 @@ section{
 }
 /* fine header */
 /* jumbotron */
+
 .jumbo{
     width: 100%;
     height: 500px;
@@ -60,4 +61,14 @@ h1{
 }
 .prova-gratis{
     margin: 30px 0;
+}
+.colonna{
+    width: 20%;
+    margin: 50px 50px 0 0;
+    float: left;
+}
+#coordinate{
+    float: left;
+    width: 500px;
+    height: auto;
 }
