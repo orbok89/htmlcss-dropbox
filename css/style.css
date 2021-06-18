@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bottone{
+    background-color: blue;
+    color: white;
+}
+/* fine generali */
+/* header */
+.menu-destra{
+    float: right;
+    vertical-align: middle;
+    line-height: 70px;
+}
+.menu-sinistra{
+    float: left;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+header{
+    width: 95%;
+    height: 70px;
+    margin: 0 auto;
+
+}
+.menu-destra a, .menu-sinistra a {
+    padding: 10px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+#logo{
+    vertical-align: middle;
+    padding: 10px;
+}
+
+section{
+    height: 100vh;
+}
