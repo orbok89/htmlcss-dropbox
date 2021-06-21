@@ -150,7 +150,6 @@ span{
 /* sezione 1 e 2 */
 #sezione1{
     width: 75%;
-    height: 500px;
     
     margin: 150px auto;
 }
@@ -168,7 +167,7 @@ span{
     margin: 0px;
 }
 .sez2{
-    width: 40%;
+    width: 50%;
     height: 500px;
 
     float: left;
@@ -177,4 +176,23 @@ span{
 .bordo1{
     margin: 5px;
     border: 1px solid lawngreen;
+}
+#sezione2{
+    width: 75%;
+    
+    margin: 150px auto;
+}
+#riga1{
+    width: 100%;
+}
+.colonna-sezione2{
+    width: 33%;
+    border: 1px solid blue;
+    float: left;
+    height: 500px;
+}
+.resize{
+    width: 100%;
+    height: auto;
+    margin: 0px;
 }
