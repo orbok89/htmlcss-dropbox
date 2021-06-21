@@ -10,7 +10,9 @@ body{
 .bottone{
     background-color: blue;
     color: white;
-    padding: 10px;
+    padding:  10px;
+    text-align: center;
+    display: inline-block;
 }
 .clearfix{
     content: "";
@@ -55,11 +57,7 @@ header a{
 .menu-sinistra a:hover,.menu-destra a:hover {
     border-bottom: 2px solid black;
 }
-.bottone{
-    background-color: blue;
-    color: white;
-    padding: 10px;
-}
+
 /* da sistemare */
 
 /* fine header */
@@ -98,7 +96,7 @@ h1{
 /* fine jumbo  */
 /* tabella di fatturazione */
 #fatturazione{
-    width: 60%;
+    width: 75%;
     height: 500px;
     
     margin: 150px auto;
@@ -107,8 +105,7 @@ h1{
     margin-bottom: 20px;
 }
 .colonna-f{
-    width: calc((100% / 3) - 50px);
-    margin: 0px 50px 0 0;
+    width: calc((100% / 3) - 40px);
     float: left;
     border: 1px solid grey;
 }
@@ -116,9 +113,68 @@ h1{
     width: 100%;
     margin: 0 auto;
 }
-.padding{
-    padding: 10px;
+li{
+    padding: 10px 0px;
 }
 span{
     color: blue;
+}
+.sottotitolo{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.no-margine{
+    margin:  0 50px;
+}
+.margin-b{
+    margin-bottom: 30px;
+}
+.colonna3{
+    width: 100%;
+    float: left;
+    border: 1px solid grey;  
+    border-top: none ;
+}
+.float{
+    float: left;
+}
+.sottotitolo2{
+    text-align: center;
+    border: 1px  solid grey;
+}
+.padding-speciale{
+    padding: 15px 25px ;
+    margin: 10px;
+}
+/* fine tabell */
+/* sezione 1 e 2 */
+#sezione1{
+    width: 75%;
+    height: 500px;
+    
+    margin: 150px auto;
+}
+.sez{
+    width: 50%;
+    
+    height: 500px;
+    float: left;
+    
+    
+}
+#partner{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.sez2{
+    width: 40%;
+    height: 500px;
+
+    float: left;
+    padding: 10px;
+}
+.bordo1{
+    margin: 5px;
+    border: 1px solid lawngreen;
 }
