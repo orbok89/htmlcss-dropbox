@@ -24,6 +24,13 @@ body{
   }
 /* fine generali */
 /* header */
+.prov{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 .menu-destra{
     float: right;
     vertical-align: middle;
@@ -34,8 +41,15 @@ body{
     vertical-align: middle;
     line-height: 70px;
 }
+#bottone-s{
+    background-color: blue;
+    color: white;
+    padding:  10px;
+    text-align: center;
+}
 
 header{
+
     width: 95%;
     height: 70px;
     margin: 0 auto;
@@ -54,7 +68,7 @@ header a{
     padding: 10px;
 }
 /* da sistemare */
-.menu-sinistra a:hover,.menu-destra a:hover {
+.menu-sinistra a:hover,.menu-destra a:not(:last-child):hover {
     border-bottom: 2px solid black;
 }
 
@@ -215,21 +229,25 @@ span{
     padding: 15px;
 }
 .rosso{
+    position: relative;
     background-color: red;
     height: 15vw;
     width: 15vw;
 }
 .azzurro{
+    position: relative;
     background-color: lightseagreen;
     height: 15vw;
     width: 15vw;
 }
 .viola{
+    position: relative;
     background-color: purple;
     height: 15vw;
     width: 15vw;
 }
 .verde{
+    position: relative;
     background-color: green;
     height: 15vw;
     width: 15vw;
@@ -254,6 +272,17 @@ span{
 .ora{
     float: right;
 }
+.resize-1{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    filter: invert(1);
+}
+/* faq */
 .sezione3{
     width: 75%;
     margin: 0 auto;
@@ -262,6 +291,8 @@ span{
     padding: 20px 0;
     border-bottom:  1px solid sienna;
 }
+/* fine faq */
+/* fottter */
 nav{
     width: 85%;
     color: white;
